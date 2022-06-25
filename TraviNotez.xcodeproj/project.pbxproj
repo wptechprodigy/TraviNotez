@@ -16,6 +16,8 @@
 		04E3C0652867750E00EA33F3 /* TraviNotezUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3C0642867750E00EA33F3 /* TraviNotezUITestsLaunchTests.swift */; };
 		04E3C07328678B7200EA33F3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3C07228678B7200EA33F3 /* User.swift */; };
 		04E3C07628678BE100EA33F3 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3C07528678BE100EA33F3 /* Note.swift */; };
+		04E3C0792867901300EA33F3 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3C0782867901300EA33F3 /* ListRow.swift */; };
+		04E3C07B2867931400EA33F3 /* ContentView_Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3C07A2867931400EA33F3 /* ContentView_Previews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		04E3C0642867750E00EA33F3 /* TraviNotezUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraviNotezUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		04E3C07228678B7200EA33F3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		04E3C07528678BE100EA33F3 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		04E3C0782867901300EA33F3 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		04E3C07A2867931400EA33F3 /* ContentView_Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView_Previews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,8 @@
 		04E3C0462867750C00EA33F3 /* TraviNotez */ = {
 			isa = PBXGroup;
 			children = (
+				04E3C07728678FFE00EA33F3 /* Presentation Layer */,
 				04E3C07428678BAF00EA33F3 /* Data Layer */,
-				04E3C07128678AB400EA33F3 /* Data Storage Layer */,
 				04E3C0472867750C00EA33F3 /* TraviNotezApp.swift */,
 				04E3C0492867750C00EA33F3 /* ContentView.swift */,
 				04E3C04B2867750E00EA33F3 /* Assets.xcassets */,
@@ -112,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				04E3C04E2867750E00EA33F3 /* Preview Assets.xcassets */,
+				04E3C07A2867931400EA33F3 /* ContentView_Previews.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -133,13 +138,6 @@
 			path = TraviNotezUITests;
 			sourceTree = "<group>";
 		};
-		04E3C07128678AB400EA33F3 /* Data Storage Layer */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Data Storage Layer";
-			sourceTree = "<group>";
-		};
 		04E3C07428678BAF00EA33F3 /* Data Layer */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +145,14 @@
 				04E3C07528678BE100EA33F3 /* Note.swift */,
 			);
 			path = "Data Layer";
+			sourceTree = "<group>";
+		};
+		04E3C07728678FFE00EA33F3 /* Presentation Layer */ = {
+			isa = PBXGroup;
+			children = (
+				04E3C0782867901300EA33F3 /* ListRow.swift */,
+			);
+			path = "Presentation Layer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,6 +289,8 @@
 				04E3C04A2867750C00EA33F3 /* ContentView.swift in Sources */,
 				04E3C0482867750C00EA33F3 /* TraviNotezApp.swift in Sources */,
 				04E3C07628678BE100EA33F3 /* Note.swift in Sources */,
+				04E3C0792867901300EA33F3 /* ListRow.swift in Sources */,
+				04E3C07B2867931400EA33F3 /* ContentView_Previews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
