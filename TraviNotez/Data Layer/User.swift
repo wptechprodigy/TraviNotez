@@ -9,11 +9,11 @@ import Combine
 
 // MARK: - Store User
 
-class UserData: ObservableObject {
+class User: ObservableObject {
 
     // MARK: - Singleton
 
-    static let shared = UserData()
+    static let shared = User()
 
     // MARK: - Properties
 
